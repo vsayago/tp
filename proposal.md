@@ -29,17 +29,17 @@ Sistema de gestión de adopción de mascotas que conecta adoptantes con publicad
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Macota<br>3. CRUD Provincia|
+|CRUD dependiente|1. CRUD Solicitud {depende de} CRUD Adoptante, CRUD Mascota<br>2. CRUD Cliente {depende de} CRUD Característica {depende de} CRUD Mascota|
+|Listado<br>+<br>detalle| 1. Listado de mascotas disponibles para adoptar filtrado por especie, muestra nombre, imagen, edad, tamaño, sexo, caracter, energia, vacunación y castración => detalle muestra datos completos de la mascota<br> 2. Listado de solicitudes de adopción en proceso, filtrado por fecha descendente, muestra código de adopción, nombre adoptante, nombre publicador, días transcurridos desde fecha solicitud  => detalle CRUD Solicitud|
+|CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota en adopción|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Usuario<br>2. CRUD Adoptante<br>3. CRUD Publicador<br>4. CRUD Mascota<br>5. CRUD Solicitud<br>6. CRUD Formulario<br>7. CRUD Historial_seguimiento<br>8. CRUD Característica<br>9. CRUD Especie<br>10. CRUD Raza<br>11. CRUD Provincia<br>12. CRUD Localidad|
+|CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota nueva en adopción<br>3. Adoptar una mascota|
 
 
 ### Alcance Adicional Voluntario
