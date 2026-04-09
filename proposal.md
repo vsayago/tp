@@ -38,7 +38,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Usuario<br>2. CRUD Adoptante<br>3. CRUD Publicador<br>4. CRUD Mascota<br>5. CRUD Solicitud<br>6. CRUD Formulario<br>7. CRUD Historial_seguimiento<br>8. CRUD Característica<br>9. CRUD Especie<br>10. CRUD Raza<br>11. CRUD Provincia<br>12. CRUD Localidad|
+|CRUD |1. CRUD Usuario<br>2. CRUD Adoptante<br>3. CRUD Publicador<br>4. CRUD Mascota<br>5. CRUD Solicitud<br>6. CRUD Formulario<br>7. CRUD Seguimiento<br>8. CRUD Característica<br>9. CRUD Especie<br>10. CRUD Provincia<br>11. CRUD Localidad<br>12. CRUD Pregunta <br>13. CRUD Respuesta|
 |CUU/Epic|1. Solicitar adopción de una mascota<br>2. Publicar mascota nueva en adopción<br>3. Adoptar una mascota|
 
 
